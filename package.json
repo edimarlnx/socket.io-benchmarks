@@ -8,12 +8,14 @@
   "author": "Damien Arrachequesne",
   "license": "MIT",
   "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
     "eiows": "^3.8.0",
     "socket.io": "^4.4.0",
     "socket.io-client": "^4.4.0",
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.4.0"
   },
   "scripts": {
+    "client": "node client.js",
     "start": "node --expose-gc server-default.js",
     "start:eiows": "node --expose-gc server-eiows.js",
     "start:uws": "node --expose-gc server-uws.js"
